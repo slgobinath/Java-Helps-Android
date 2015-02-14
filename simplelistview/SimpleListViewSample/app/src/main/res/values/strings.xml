@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple ListView Sample</string>
+    <string name="action_settings">Settings</string>
+
+<string-array name="design_patterns">
+    <item>Abstract Factory</item>
+    <item>Builder</item>
+    <item>Factory Method</item>
+    <item>Prototype</item>
+    <item>Singleton</item>
+    <item>Adapter</item>
+    <item>Bridge</item>
+    <item>Composite</item>
+    <item>Decorator</item>
+    <item>Facade</item>
+    <item>Flyweight</item>
+    <item>Proxy</item>
+    <item>Chain of responsibility</item>
+    <item>Command</item>
+    <item>Interpreter</item>
+    <item>Iterator</item>
+    <item>Mediator</item>
+    <item>Memento</item>
+    <item>Observer</item>
+    <item>State</item>
+    <item>Strategy</item>
+    <item>Template method</item>
+    <item>Visitor</item>
+</string-array>
+
+<string-array name="design_patterns_description">
+    <item>Groups object factories that have a common theme.</item>
+    <item>Constructs complex objects by separating construction and representation.</item>
+    <item>Creates objects without specifying the exact class to create.</item>
+    <item>Creates objects by cloning an existing object.</item>
+    <item>Restricts object creation for a class to only one instance.</item>
+    <item>Allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.</item>
+    <item>Decouples an abstraction from its implementation so that the two can vary independently.</item>
+    <item>Composes zero-or-more similar objects so that they can be manipulated as one object.</item>
+    <item>Dynamically adds/overrides behaviour in an existing method of an object.</item>
+    <item>Provides a simplified interface to a large body of code.</item>
+    <item>Reduces the cost of creating and manipulating a large number of similar objects.</item>
+    <item>Provides a placeholder for another object to control access, reduce cost, and reduce complexity.</item>
+    <item>Delegates commands to a chain of processing objects.</item>
+    <item>Creates objects which encapsulate actions and parameters.</item>
+    <item>Implements a specialized language.</item>
+    <item>Accesses the elements of an object sequentially without exposing its underlying representation.</item>
+    <item>Allows loose coupling between classes by being the only class that has detailed knowledge of their methods.</item>
+    <item>Provides the ability to restore an object to its previous state (undo).</item>
+    <item>Publish/subscribe pattern which allows a number of observer objects to see an event.</item>
+    <item>Allows an object to alter its behavior when its internal state changes.</item>
+    <item>Allows one of a family of algorithms to be selected on-the-fly at runtime.</item>
+    <item>Defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.</item>
+    <item>Separates an algorithm from an object structure by moving the hierarchy of methods into one object.</item>
+</string-array>
+</resources>
