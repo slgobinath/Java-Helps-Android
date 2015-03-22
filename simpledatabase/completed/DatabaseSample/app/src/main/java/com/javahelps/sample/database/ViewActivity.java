@@ -94,6 +94,7 @@ public class ViewActivity extends ActionBarActivity {
     private void checkIntentForContact() {
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
+        btnDelete.setEnabled(false);
         if (bundle != null) {
             contact = (Contact) bundle.get("CONTACT");
             if (contact != null) {
@@ -102,9 +103,6 @@ public class ViewActivity extends ActionBarActivity {
                 this.etPhone.setText(contact.getPhone());
                 this.etEmail.setText(contact.getEmail());
                 btnDelete.setEnabled(true);
-            } else {
-                // Add new student
-                btnDelete.setEnabled(false);
             }
         }
     }
